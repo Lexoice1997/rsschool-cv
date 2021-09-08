@@ -1,5 +1,4 @@
 # <rsschool-cv>
-
 1. My fullname is Azamat Berdimuratov
 2. Contacts:
   * Lexoice1997@gmail.com
@@ -25,7 +24,10 @@
 
   return res.join('');
   }``
-6. https://www.freecodecamp.org/learn/responsive-web-design/ 
-   https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
-7. https://www.udemy.com/course/javascript_full/
-8. B1 (I have not with native speakers)
+6. Experience:
+7. Education:
+  - Uzbekistan Agrarian university 
+  - https://www.udemy.com/course/javascript_full/
+  - FreeCodeCamp
+8. English:
+  - B1 (I have not with native speakers)
