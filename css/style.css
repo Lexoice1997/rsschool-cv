@@ -1,0 +1,40 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1024px;
+  min-width: 600px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  padding: 2rem;
+  background-color: #e6e2d4;
+}
+
+main {
+  width: 1024px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+main .left-section {
+  padding: 1rem;
+  width: 30%;
+  color: white;
+  background-color: #4d4d4d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
