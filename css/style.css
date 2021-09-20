@@ -38,3 +38,34 @@ main .left-section {
       -ms-flex-align: stretch;
           align-items: stretch;
 }
+main .left-section article .contacts {
+  margin-bottom: 30px;
+}
+main .left-section article .contacts li {
+  list-style-type: none;
+  padding: 5px 0;
+}
+main .left-section article .skills {
+  margin-bottom: 30px;
+}
+main .left-section article .skills li {
+  list-style-type: circle;
+  padding: 5px 0;
+  margin-left: 15px;
+}
+main .left-section article .skills li a {
+  color: white;
+  text-decoration: none;
+}
+main .left-section article h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+  margin: 24px 0;
+}
+main .left-section article .line {
+  width: 100%;
+  height: 0.05rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: white;
+}
