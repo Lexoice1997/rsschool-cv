@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1024px;
+  min-width: 600px;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  padding: 2rem;
+  background-color: #e6e2d4;
+}
+
+main {
+  width: 1024px;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: flex;
+
+  .left-section {
+    padding: 1rem;
+    width: 30%;
+    color: white;
+    background-color: #4d4d4d;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+
+    article {
+      .contacts {
+        margin-bottom: 30px;
+          li {
+            list-style-type: none;
+            padding: 5px 0;
+          }
+      }
+
+      .skills {
+        margin-bottom: 30px;
+        li {
+          list-style-type: circle;
+          padding: 5px 0;
+          margin-left: 15px;
+
+          a {
+            color: white;
+            text-decoration: none;
+          }
+        }
+      }
+
+      h3 {
+        text-transform: uppercase;
+        font-size: 24px;
+        margin: 24px 0;
+      }
+
+      .line {
+        width: 100%;
+        height: .05rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        background-color: white;
+      }
+    }
+  }
+
+  .right-section {
+    color: #4d4d4d;
+    padding: 16px;
+    width: 75%;
+
+    h1 {
+      margin: 22px 0;
+      font-size: 26px;
+    }
+
+    h5 {
+      font-size: 18px;
+    }
+
+    .line-right {
+      width: 100%;
+      height: .05rem;
+      margin-top: 0.5rem;
+      background-color: grey;
+      margin-bottom: 3rem;
+    }
+
+    .education {
+      margin-bottom: 3rem;
+
+      h2 {
+        margin-bottom: 30px;
+      }
+
+      p {
+        font-size: 15px;
+        font-weight: 500;
+      }
+
+      .description {
+        padding: 10px;
+        display: flex;
+        font-size: 15px;
+        line-height: 1.5;
+        border-top: solid grey 1px;
+
+        &__item1 {
+          width: 35%;
+
+          .strong {
+            font-weight: bold;
+          }
+        }
+
+        &__item2 {
+          width: 75%;
+        }
+      }
+    }
+
+    footer {
+      h2 {
+        text-align: center;
+        margin-top: 220px;
+      }
+    }
+  }
+}

@@ -1,0 +1,125 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1024px;
+  min-width: 600px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  padding: 2rem;
+  background-color: #e6e2d4;
+}
+
+main {
+  width: 1024px;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .left-section {
+  padding: 1rem;
+  width: 30%;
+  color: white;
+  background-color: #4d4d4d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+main .left-section article .contacts {
+  margin-bottom: 30px;
+}
+main .left-section article .contacts li {
+  list-style-type: none;
+  padding: 5px 0;
+}
+main .left-section article .skills {
+  margin-bottom: 30px;
+}
+main .left-section article .skills li {
+  list-style-type: circle;
+  padding: 5px 0;
+  margin-left: 15px;
+}
+main .left-section article .skills li a {
+  color: white;
+  text-decoration: none;
+}
+main .left-section article h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+  margin: 24px 0;
+}
+main .left-section article .line {
+  width: 100%;
+  height: 0.05rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: white;
+}
+main .right-section {
+  color: #4d4d4d;
+  padding: 16px;
+  width: 75%;
+}
+main .right-section h1 {
+  margin: 22px 0;
+  font-size: 26px;
+}
+main .right-section h5 {
+  font-size: 18px;
+}
+main .right-section .line-right {
+  width: 100%;
+  height: 0.05rem;
+  margin-top: 0.5rem;
+  background-color: grey;
+  margin-bottom: 3rem;
+}
+main .right-section .education {
+  margin-bottom: 3rem;
+}
+main .right-section .education h2 {
+  margin-bottom: 30px;
+}
+main .right-section .education p {
+  font-size: 15px;
+  font-weight: 500;
+}
+main .right-section .education .description {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  line-height: 1.5;
+  border-top: solid grey 1px;
+}
+main .right-section .education .description__item1 {
+  width: 35%;
+}
+main .right-section .education .description__item1 .strong {
+  font-weight: bold;
+}
+main .right-section .education .description__item2 {
+  width: 75%;
+}
+main .right-section footer h2 {
+  text-align: center;
+  margin-top: 220px;
+}
