@@ -119,3 +119,7 @@ main .right-section .education .description__item1 .strong {
 main .right-section .education .description__item2 {
   width: 75%;
 }
+main .right-section footer h2 {
+  text-align: center;
+  margin-top: 220px;
+}
